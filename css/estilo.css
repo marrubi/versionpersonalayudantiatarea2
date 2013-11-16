@@ -1,0 +1,145 @@
+body{
+	background-color: #DDDDFF;
+	font-family: calibri;
+}
+
+h1{
+	color: #EEEEEE;
+	width: 1000px;
+	height: 70px;
+	text-align: left;
+	border: 1px solid #868686;
+	margin: auto;
+	background: #CCCCCC;
+}
+
+nav{
+	width: 1000px;
+	height: 40px;
+	background-color: #777;
+	border-bottom: 1px solid #868686;
+	border-left: 1px solid #868686; 
+	border-right: 1px solid #868686;
+	margin: auto;
+	text-align: left;
+}
+
+
+ul.menu,
+ul.menu ul,
+ul.menu li,
+ul.menu a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+ul.menu {
+    height: 40px;
+    width: 100%;
+    background: #4c4e5a;
+}
+ 
+ul.menu li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 40px;
+}
+ul.menu li a {
+    display: block;
+    padding: 0 14px;
+    line-height: 36px;
+    text-decoration: none;
+    font-family: calibri;
+    color: #FFFFFF;
+}
+
+ul.menu li:first-child a { border-left: none; }
+ul.menu li:last-child a{ border-right: none; }
+
+
+ul.menu li:hover > a { color: #FFFFFF; background: #CC0000; }
+ul.menu ul {
+    position: absolute;
+    top: 35px;
+    left: 0;
+ 	background: red;
+    opacity: 0;
+}
+
+ul.menu ul li {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+ 
+ul.menu li:hover > ul li {
+    height: 36px;
+    overflow: visible;
+    padding: 0;
+}
+
+ul.menu ul li a {
+    width: 150px;
+    margin: 0;
+    border: none;
+    background: #CC0000;
+}
+ 
+ul.menu ul li:last-child a {
+	border: none;
+}
+ 
+ul.menu li:hover > ul {
+	opacity: 1;
+}
+
+
+footer{
+	border: 1px solid #868686;
+	width: 1000px;
+	text-align: center;
+	color: #EEEEEE;
+	margin: auto;
+	background-color: #777;
+}
+
+p{
+	padding-left: 10px;
+}
+
+.contenedor{
+	text-align: center;
+	width:1000px;
+	height:auto;
+	margin:auto;
+	border-left: 1px solid #868686;
+	border-right: 1px solid #868686;
+	background-color: #333;
+	color: #EEEEEE;
+}
+
+.imagen{
+	padding: 10px;
+}
+
+.articulo{
+	border-top: 1px solid #868686;
+	margin: auto;
+	width: 1000px;
+	padding: 10px;
+	text-align: left;
+}
+
+.ref{
+	text-decoration: none;
+	font-family: calibri;
+}
+
+#titulo{
+	text-decoration: none;
+	color: #EEEEEE;
+}
