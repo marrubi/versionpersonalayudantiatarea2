@@ -3,16 +3,6 @@ body{
 	font-family: calibri;
 }
 
-h1{
-	color: #EEEEEE;
-	width: 1000px;
-	height: 70px;
-	text-align: left;
-	border: 1px solid #868686;
-	margin: auto;
-	background: #CCCCCC;
-}
-
 nav{
 	width: 1000px;
 	height: 40px;
@@ -138,6 +128,17 @@ p{
 	text-decoration: none;
 	font-family: calibri;
 }
+
+#img{
+	color: #EEEEEE;
+	width: 1000px;
+	height: 100px;
+	text-align: left;
+	border: 1px solid #868686;
+	margin: auto;
+	background: #CCCCCC;
+}
+
 
 #titulo{
 	text-decoration: none;

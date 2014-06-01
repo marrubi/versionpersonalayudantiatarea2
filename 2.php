@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="http://localhost/versionpersonalayudantiatarea2" id="titulo">Información Integrantes grupo</a></h1>
+			<a href="http://localhost/versionpersonalayudantiatarea2" id="titulo"><img src="img/isw.jpg" id="img"/></a>
 			<nav>
 				<ul class="menu">
 					<li><a href="#">Integrantes</a>
